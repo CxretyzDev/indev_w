@@ -1894,7 +1894,6 @@ function library:Evil(text,text2,logo)
 	end
 	return tabs
 end
-return library 
 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
@@ -1916,3 +1915,5 @@ ImageButton.MouseButton1Down:connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 UICorner.Parent = ImageButton
+
+return library 
